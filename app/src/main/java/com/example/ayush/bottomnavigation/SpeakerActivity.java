@@ -56,9 +56,9 @@ public class SpeakerActivity extends AppCompatActivity {
         fab1 = (FloatingActionButton) findViewById(R.id.fab_1);
         fab2 = (FloatingActionButton) findViewById(R.id.fab_2);
         fab3 = (FloatingActionButton) findViewById(R.id.fab_3);
-      //  t= (TextView) findViewById(R.id.t1);
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.materialup_tabs);
-        ViewPager viewPager  = (ViewPager) findViewById(R.id.materialup_viewpager);
+        t= (TextView) findViewById(R.id.t1);
+        //TabLayout tabLayout = (TabLayout) findViewById(R.id.materialup_tabs);
+        //ViewPager viewPager  = (ViewPager) findViewById(R.id.materialup_viewpager);
         show_fab_1 = AnimationUtils.loadAnimation(getApplication(), R.anim.fab1_show);
         hide_fab_1 = AnimationUtils.loadAnimation(getApplication(), R.anim.fab1_hide);
         show_fab_2 = AnimationUtils.loadAnimation(getApplication(), R.anim.fab2_show);
@@ -71,8 +71,8 @@ public class SpeakerActivity extends AppCompatActivity {
                 onBackPressed();
             }
         });
-        viewPager.setAdapter(new TabsAdapter(getSupportFragmentManager()));
-        tabLayout.setupWithViewPager(viewPager);
+        //viewPager.setAdapter(new TabsAdapter(getSupportFragmentManager()));
+        //tabLayout.setupWithViewPager(viewPager);
 
 
         appbarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
@@ -99,8 +99,7 @@ public class SpeakerActivity extends AppCompatActivity {
         });
         mMaxScrollSize = appbarLayout.getTotalScrollRange();
 
-       // t.setText("Dilip Chhabria is an Indian car designer and the founder of DC Design.He designed and manufactured DC Avanti, considered India's first supercar.  \\r\\n\\t\\t\\t\\t\\t\\t\\tDilip Chhabria graduated with a bachelor's degree in commerce. He in a 2015 interview said that found an advertisement in a car magazine and decided to become a car designer. He then studied in the Art Center College of Design in Pasadena, US. After graduating, he worked for General Motors for a while. He returned to India to start a workshop in Marol. His first product was a horn for the Premier Padmini. He then established DC Design which initially produced body kits for Indian cars and designed motorcycles.  \\r\\n\\t\\t\\t\\t\\t\\t\\tIn 2002, he was hired by the Kinetic Engineering Limited to design a limited edition scooter. In 2006, he tied up with Exim Star of ETA Star Group to form a new company, DCStar. It was set up in Dubai to produce custom cars. In 2009, he designed a concept car for the Coca-Cola Company to promote the energy drink Burn in India. In 2010, he started the DYPDC Center for Automotive Research and Studies with the D. Y. Patil group. In 2011, he designed the REVA NXR electric car for Mahindra & Mahindra. In 2012, Air Works India tied up with Chhabria to design aircraft interiors. In 2013, he was hired by Siddhi Vinayak Logistics to design the buses for their luxury bus service. In 2014, he designed custom luxury buses for Girikand Logistics. In 2015, he launched the DC Avanti.");
-
+        t.setText(R.string.lorem);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -145,34 +144,7 @@ public class SpeakerActivity extends AppCompatActivity {
     }
 
 
-    class TabsAdapter extends FragmentPagerAdapter {
-        public TabsAdapter(FragmentManager fm) {
-            super(fm);
-        }
 
-        @Override
-        public int getCount() {
-            return 1;
-        }
-
-        @Override
-        public Fragment getItem(int i) {
-            switch(i) {
-                case 0: return MaterialUpConceptFakePage.newInstance();
-                //case 1: return MaterialUpConceptFakePage.newInstance();
-            }
-            return null;
-        }
-
-        @Override
-        public CharSequence getPageTitle(int position) {
-            switch(position) {
-                case 0: return "Tab 1";
-                //case 1: return "Tab 2";
-            }
-            return "";
-        }
-    }
 
     private void expandFAB() {
 

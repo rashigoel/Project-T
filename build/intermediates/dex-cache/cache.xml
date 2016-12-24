@@ -7,17 +7,17 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="135fbf3382054ccc53751a1fb494dc00a4c05dd9">
+        sha1="a9d613c4fa899302281d3aa3b6892ae83110e9ac">
         <dex dex="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5f35ea4a5419b229fa3c45fc670246eb30b17f7a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jar="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_eb49ddf4aa72ea64a4d374029d068b2534d2a9a0\classes.dex" />
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_89745852599e4f07b0a7cc75220537e8e6cfe94c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -66,30 +66,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_1a54eafb3ccb48a60b739c7eb88cca1ad231c4a2\classes.dex" />
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.2.1_0ac65bbe6c767e9f0f207b64f014c5c56d86e2a4\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Ayush\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jar="C:\Users\Ayush\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_a757a0cc50ac755743fe4c9a52b1e34ea432afd6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c0727fa6100e5b015257450e05194113ec8427c3">
-        <dex dex="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5c62db14b40cc19151e3eeb6a100bbd5d71f43b0\classes.dex" />
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_ebfea8b26122842db56802198daf86cab22a07a9\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -99,6 +90,24 @@
         revision="24.0.2"
         sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
         <dex dex="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_660eb1d54b3d56bd1fb92c8976a17c3fa831026e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9b80801a7e88d55a38fea17137893f0174ebb7e9">
+        <dex dex="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5c62db14b40cc19151e3eeb6a100bbd5d71f43b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_674fac9db0063b13ad34d8bfdb96b711e11e02af\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -120,12 +129,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_e08ae991de32ca27f5dc3df91601ce63a9d1d8ff\classes.dex" />
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-2.1.0_0a44e301e6d5c495d901fe8f48e7abb8cf1d4b32\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -156,15 +165,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_66d67de688d6a494d7f6fa7907d9ebf1c705a6a6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
@@ -174,21 +174,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_12b7cd5a913f6977df20721ac5fcc81e53e0a16a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_343e7a688b342a142af4a949bcaf92c9c1bdadd2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_5ce6e7f6e4ee948708c2de446d34ad5b281a20fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
         <dex dex="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.0_4f5d62f7a31d52f18cdb44143570f66c4e203e77\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
-        <dex dex="C:\Users\Ayush\AndroidStudioProjects\BottomNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.0_f5f965d5cbda6ff174a913c7f77051f69ea747e9\classes.dex" />
     </item>
 
 </items>

@@ -1,8 +1,11 @@
 package com.example.ayush.bottomnavigation;
 
+import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigationItem;
@@ -37,5 +40,18 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigation.setTranslucentNavigationEnabled(true);
         bottomNavigation.setColored(true);
 
+      bottomNavigation.setOnTabSelectedListener(new AHBottomNavigation.OnTabSelectedListener() {
+          @Override
+          public boolean onTabSelected(int position, boolean wasSelected) {
+
+              Intent intent=new Intent(getApplicationContext(),SpeakerActivity.class);
+              startActivity(intent);
+              return true;
+          }
+      });
+
+    }
+    public static void start(Context c) {
+        c.startActivity(new Intent(c, SpeakerActivity.class));
     }
 }

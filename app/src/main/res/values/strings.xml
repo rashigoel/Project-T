@@ -17,5 +17,8 @@
 		Aenean ullamcorper dolor non condimentum congue. Aenean mauris nunc, pellentesque at placerat vitae,
 		aliquet quis orci. Curabitur maximus augue ut bibendum sagittis.
 	</string>
+	<string name="facebook_app_id">1395518940481398</string>
+	<string name="fb_login_protocol_scheme">fbAPP_ID</string>
+
 
 </resources>

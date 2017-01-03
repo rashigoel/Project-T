@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         s=s+profile.getName();
         else
             Toast.makeText(this, "Facebook null hai", Toast.LENGTH_SHORT).show();
-        
+
         textView.setText(s);
 
         mSignout.setOnClickListener(new View.OnClickListener() {
